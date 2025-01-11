@@ -1,0 +1,34 @@
+.hero-container {
+    width: 100vw;
+    height: 50vh; /* 50% of the viewport height */
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero-content button:hover {
+    background-color: #21a1f1;
+  }
+  
